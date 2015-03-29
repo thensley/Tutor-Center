@@ -39,8 +39,8 @@
 </div>
 
 <div id="nav">
-	Admin<br>
-	Tutor<br>
+	<a href="http://tutorcenter.430projectbank.com/admin.php"> Admin</a><br>
+	<a href="http://tutorcenter.430projectbank.com/tutor.php"> Tutor</a><br>
 	Calendar<br>
 </div>
 	
