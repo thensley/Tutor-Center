@@ -39,24 +39,36 @@
 </div>
 
 <div id="nav">
+//need if, if else, else logic
 	<a href="http://tutorcenter.430projectbank.com/admin.php"> Admin</a><br>
 	<a href="http://tutorcenter.430projectbank.com/tutor.php"> Tutor</a><br>
+	<a href="http://tutorcenter.430projectbank.com/requesttutor.php"> Student</a><br>
 	Calendar<br>
 </div>
 	
 <div id="section">
-	<form action="action_page.php" method="GET">
+//need if admin, if else tutor, else student logic
+	<h1>Admin/Tutor</h1>
+	<form action="action_page.php" method="POST">
 	User Name:<br>
-	<input type="text" name="username" value="MyUserName">
+	<input type="text" name="username" value="" maxlength="20">
 	<br>
 	User Password:<br>
-	<input type="password" name="password" value="MyPassword"
+	<input type="password" name="password" value="" maxlength="20">
 	<br><br>
 	<input type="submit" value="Submit">
 	</form> 
+	
+	
+	</p>
+	<h1>Students</h1>
+	<p>Students, please click
+	<a href="http://tutorcenter.430projectbank.com/requesttutor.php"> here</a>
+	 to schedule tutoring sessions.
+	</p>	
 </div>
 		
-<p>"***THIS IS JUST A SKELETON FORM TO GET STARTED.*** " Work in progress NEED TO CHANGE:If you click "Submit", the form-data will be sent to a page called "action_page.php".</p>
+
 
 </body>
 </html>
