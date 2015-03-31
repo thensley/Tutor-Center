@@ -1,0 +1,14 @@
+Here are some examples of the queries we'll most likely be using. These 
+are NOT finalized, and don't take into account the names of the variables 
+we'll actually be using on the site. Here for reference for the moment.
+
+
+INSERT INTO tutorsched (apptID, days, endTime, startTime, userID) VALUES ($apptID, $days[], $startTime, $endTime, $user_userID)
+
+DELETE FROM tutorsched WHERE apptID=$apointmentID
+ 
+DELETE FROM login WHERE userID=$userID
+ 
+INSERT INTO login (admin, password, userID, username) VALUES (false, $pass, $ID, $username)
+ 
+UPDATE tutorsched SET days=$days, startTime=$start, endTime=$end WHERE userID=$ID
